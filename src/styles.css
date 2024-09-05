@@ -1,0 +1,101 @@
+body {
+  font-family: sans-serif;
+}
+body {
+  background-color: #f9f7fe;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.current-weather {
+  background-color: #ffffff;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  display: flex;
+}
+footer {
+  background-color: transparent;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+}
+header {
+  background-color: transparent;
+  padding-top: 20px;
+  display: flex;
+  position: static;
+  justify-content: left;
+  top: 0;
+}
+.search-bar {
+  border-radius: 15px;
+  padding: 20px;
+  background-color: #f9f7fe;
+  border-color: transparent;
+  width: 500px;
+}
+.sun-emoji {
+  display: flex;
+  justify-content: end;
+  line-height: 3;
+  width: 400px;
+  font-size: 50px;
+}
+.degree {
+  font-size: 100px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  justify-content: end;
+}
+.celsius {
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h1 {
+  display: flex;
+  justify-content: flex-start;
+  top: 0;
+  bottom: -30px;
+  font-size: 60px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: -30px;
+}
+div.temperature {
+  display: flex;
+  position: absolute;
+  justify-content: end;
+  left: 500px;
+  top: 220px;
+}
+.container {
+  background-color: #ffffff;
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.search-button {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #885df1;
+  color: #ffffff;
+  border-radius: 15px;
+  border-color: transparent;
+}
+strong {
+  color: #f75282;
+}
+p {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
